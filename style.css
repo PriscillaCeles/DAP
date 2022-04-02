@@ -1,0 +1,377 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    font-weight: 1000;
+    background: #2dafb811;
+    padding: 20px 0;
+        }
+
+.logo{
+width: 200px;
+}
+
+.pags{
+    position: relative;
+    width: 92%;
+    margin: 0 auto;
+    }
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+  nav il{
+      display: inline;
+      margin: 0 0 0 15px;
+  }
+
+  nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 2ms;
+  }
+
+  nav a:hover{
+    color: #2dafb8;
+    color: rgba(0 0 0 0.5);
+    text-decoration:dotted;
+    text-shadow: 1px 1px #73f5f5;
+    text-decoration: underline;
+  }
+
+/* Home */
+.banner{
+    width: 100%;
+    }
+
+.missao {
+  font-size: 32px;
+  font-weight: 500;
+  background-color: #117379;
+  color: #FEFEFE;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  margin: 20px 0 20px 0;
+  
+}
+
+.dap-content {
+  clear: left;
+  display: flex;
+  align-items: center;
+}
+
+.equipe-img {
+  width: 340px;
+  margin-left: 20px;
+  margin-right: 40px;
+  float: left;
+}
+
+.subtitle {
+  font-size: 27px;
+  color: #117379;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 22px;
+  line-height: 40px;
+  text-align: justify;
+  max-width: 90%;
+}
+
+.quem-somos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quem-somos__titulo, .budget-title {
+  font-family: 'Handlee', cursive;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  color: #117379;
+  padding-top: 3rem;
+}
+
+.quem-somos__descricao {
+  font-weight: 100;
+  font-size: 1.75rem;
+  color: #595959;
+}
+
+.pessoas  {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  background: linear-gradient(180deg, #FFFFFF, #fefefe, #91b1b6);
+  width: 100%;
+}
+
+.pessoa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.pessoa__imagem {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+}
+
+.pessoa__imagem--allyne {
+  background-image: url("./assets/allyne.jpeg");
+}
+
+.pessoa__imagem--danielle {
+  background-image: url("./assets/danielle.jpeg");
+}
+
+.pessoa__imagem--priscilla {
+  background-image: url("./assets/priscilla.jpeg");
+}
+
+.pessoa__nome, .title-contact {
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: #055155fb;
+  margin: 20px 0;
+}
+
+.pessoa__funcao {
+  font-weight: 100;
+  font-size: 24px;
+  color: #ececec;
+}
+
+.video-info {
+  padding: 70px 0 30px;
+  clear: left;
+  display: flex;
+  background: #91b1b6;
+}
+
+  .video{
+    
+    width: 560px;
+    margin: 0 auto ;
+}
+
+/* Serviços */
+
+.services {
+  /* height: 100vh; */
+  padding: 50px 50px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #FFFFFF, #fefefe, #91b1b6);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 28% 28% 28%;
+  gap: 25px;
+  justify-content: space-evenly;
+
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px dotted #9c9797;
+  border-radius: 10px;
+  background-color: #FEFEFE;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  min-width: 300px;
+  min-height: 250px;
+}
+
+.service:hover {
+  border: 3px solid #055155fb;
+  background-color: #FFFFFF;
+}
+
+.service-img {
+  width: 150px;
+}
+
+.services-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #055155fb;
+  margin-top: 10px;
+}
+
+.services-details {
+  max-width: 300px;
+  font-size: 13px;
+  font-weight: 500;
+  list-style-type: disc;
+  list-style: inside;
+  margin-top: 10px;
+  text-align: ju;
+}
+
+/* Rodapé */
+.footnote {
+  padding: 30px 0;
+  background: linear-gradient(180deg, #91b1b6, #4c6569);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footnote-img {
+  width: 150px;
+  margin: 25px auto 15px;
+}
+
+.footnote-text {
+  color: #FEFEFE;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*Formulário de orçamento*/
+.budget {
+  background: linear-gradient(180deg, #FFFFFF, #fefefe, #91b1b6);
+  padding-bottom: 30px;
+}
+
+
+.budget-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 500px;
+
+}
+
+.label-field {
+  font-size: 18px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.label-field-title {
+  font-weight: bold;
+  color: #117379;
+}
+
+.input-field {
+  width: 500px;
+  height: 35px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  background-color: #f0f0f06e;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.animal {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.system {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.radio-system {
+  margin-top: 15px;
+}
+
+.msg-box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.msg-field {
+  height: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #f0f0f06e;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.send {
+  margin-top: 30px;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #117379;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: 200ms;
+}
+
+.send:hover {
+  background-color: #14848a;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 3px #59595984;
+  transform: scale(1.02);
+}
+
+.contact {
+  padding: 50px 50px 0;
+  background: #91b1b6
+}
+
+.links-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-contact {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #117379;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10PX;
+
+}
+
+.link-contact img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+

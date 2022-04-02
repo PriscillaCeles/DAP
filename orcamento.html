@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <title>Orçamento - DAP Progetos Aquícolas</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="pags">
+        <h1>
+          <img class="logo" src="././assets/logo.png" />
+        </h1>
+
+        <nav>
+          <ul>
+            <il><a href="./index.html">Home</a></il>
+            <il><a href="./services.html">Serviços</a></il>
+            <il><a href="./orcamento.html">Orçamento</a></il>
+            <il><a href="#contatos">Contato</a></il>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="budget">
+      <h2 class="budget-title">Orçamento</h2>
+      <form class="budget-box">
+        <label class="label-field label-field-title" for="name-field">Nome Completo</label>
+        <input  required
+          class="input-field"
+          id="name-fielde"
+          type="text"
+          placeholder="Digite seu nome completo"
+        />
+
+        <label class="label-field label-field-title" for="email-field">E-mail</label>
+        <input required
+          class="input-field"
+          id="email-fielde"
+          type="email"
+          placeholder="Digite seu email"
+        />
+
+        <label class="label-field label-field-title" for="phone-field" pla>Telefone</label>
+        <input required
+          class="input-field"
+          id="phone-fielde"
+          type="tel"
+          placeholder="(XX) XXXXX-XXXX"
+        />
+
+        <div class="animal">
+          <label class="label-field label-field-title">Deseja cultivar:</label>
+          <div>
+            <input required
+              class="radio-field"
+              id="fish-fielde"
+              type="radio"
+              name="animal"
+            />
+            <label class="label-field" for="fish-field">Peixe</label>
+          </div>
+          <div>
+            <input required
+              class="radio-field"
+              id="shrimp-fielde"
+              type="radio"
+              name="animal"
+            />
+            <label class="label-field" for="shrimp-field">Camarão</label>
+          </div>
+        </div>
+
+        <div>
+          <label class="label-field label-field-title "
+            >Sistema de cultivo:</label
+          >
+          <div class="system">
+            <div class="radio-system">
+              <input required
+                class="radio-field"
+                id="extensive-fielde"
+                type="radio"
+                name="system"
+              />
+              <label class="label-field" for="extensive-field">Extensivo</label>
+            </div>
+            <div class="radio-system">
+              <input required
+                class="radio-field"
+                id="semi-fielde"
+                type="radio"
+                name="system"
+              />
+              <label class="label-field" for="semi-field">Semi-intensivo</label>
+            </div>
+            <div class="radio-system">
+              <input required
+                class="radio-field"
+                id="intensive-fielde"
+                type="radio"
+                name="system"
+              />
+              <label class="label-field" for="intensive-field">Intensivo</label>
+            </div>
+          </div>
+        </div>
+
+        <label class="label-field label-field-title" for="yield-field">Produção</label>
+        <input required
+          class="input-field"
+          id="yield-fielde"
+          type="text"
+          placeholder="Digite aqui sua expectativa de produção mensal"
+        />
+
+        <div class="msg-box">
+          <label class="label-field label-field-title" for="text-field">Observações:</label>
+          <textarea
+            class="msg-field"
+            id="text-fielde"
+            placeholder="Digite aqui as observações"
+          ></textarea>
+        </div>
+      
+        <button class="send">Solicitar Orçamento</button>
+      </form>
+    </main>
+
+    <div class="contact" id="contatos">
+      <strong class="title-contact">Contatos</strong>
+      <div class="links-contact">
+        <a class="link-contact" href="https://wa.me/558181737505"
+          ><img src="./assets/logo-whatsapp.png" alt="Logode whatsapp" /> (81)
+          9 8173-7505</a
+        >
+        <a class="link-contact" href="https://www.instagram.com/dap.projetos.aquicolas/"
+          ><img src="./assets/instagram-logo.png" alt="Logo de instagram" />
+          @dap.projetos.aquicolas
+        </a>
+      </div>
+    </div>
+
+    <footer class="footnote">
+      <img class="footnote-img" src="./assets/logo-peixes.png" />
+      <p class="footnote-text">DAP Projetos Aquícolas - Desde 2020</p>
+    </footer>
+  </body>
+</html>
