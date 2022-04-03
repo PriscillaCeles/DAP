@@ -1,0 +1,102 @@
+@media (max-width: 650px){
+    .services {
+        padding: 50px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px){
+    header {
+        display: flex;
+        align-items: center;
+        padding: 20px 40px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    nav il{
+        text-align: center;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 850px){
+/*Header*/
+.logo{
+    width: 180px;
+}
+
+header {
+    padding: 20px 40px;
+}
+
+nav il{
+    display: inline;
+    margin: 0 0 0 5px;
+}
+
+/*Home*/
+.missao {
+    font-size: 1.75rem;
+    text-align: justify
+    ;
+}
+
+.equipe-img {
+    width: 30%;
+    margin-right: 25px;
+}
+
+.pessoa__imagem {
+    height: 130px;
+    width: 130px;
+}
+
+.pessoa__nome {
+    font-size: 28px; 
+}
+.pessoa__funcao {
+    font-size: 20px; 
+}
+
+.video {
+    max-width: 80%;
+}
+
+/*Contatos*/
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.links-contact {
+    align-items: center;
+}
+}
+
+@media (max-width: 1000px){
+    .services {
+        padding: 50px 50px;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 1600px){
+    .services {
+        padding: 50px 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
+    }
+}
