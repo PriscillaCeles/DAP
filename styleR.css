@@ -1,4 +1,8 @@
 @media (max-width: 660px){
+    .logo {
+        max-width: 100% ;
+    }
+
     .missao{
         display: flex;
         flex-direction: column;
@@ -12,6 +16,19 @@
 
     .quem-somos {
         padding: 0 10px;
+    }
+
+    .quem-somos-descricao {
+        font-size: 25px;
+    }
+
+    .pessoa__imagem {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    .pessoa__nome {
+        font-size: 25px;
     }
 
     .services {
@@ -32,8 +49,20 @@
         padding: 20px 40px;
     }
 
-    .missao {
-        font-size: 1.5rem;
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    nav il{
+        text-align: center;
+    }
+
+    .equipe-img {
+        max-width: 100%;
+        margin-right: 0px;
     }
     
     .dap-content {
@@ -58,18 +87,6 @@
         margin-top: 10px;
     }
 
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 20px;
-    }
-
-    nav il{
-        text-align: center;
-        line-height: 32px;
-    }
 }
 
 @media (max-width: 850px){
@@ -82,19 +99,21 @@ header {
     padding: 20px 40px;
 }
 
-nav il{
+nav il a{
     display: inline;
     margin: 0 0 0 5px;
+    font-size: 15px;
+    line-height: 28px;
 }
 
 /*Home*/
 .missao {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 .equipe-img {
     width: 30%;
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 .text {
@@ -110,10 +129,10 @@ nav il{
 }
 
 .pessoa__nome {
-    font-size: 28px; 
+    font-size: 25px; 
 }
 .pessoa__funcao {
-    font-size: 20px; 
+    font-size: 18px; 
     text-align: center;
 }
 
