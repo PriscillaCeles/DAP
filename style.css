@@ -171,35 +171,6 @@ header{
     margin: 0 auto ;
 }
 
-/* Contatos */
-.contact {
-  padding: 50px;
-}
-
-.links-contact {
-  display: flex;
-  flex-direction: column;
-}
-
-.link-contact {
-  font-size: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #117379;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: 'Quicksand', sans-serif;
-  margin-top: 10PX;
-
-}
-
-.link-contact img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-
 /* Serviços */
 
 .services {
@@ -254,26 +225,6 @@ header{
   list-style: inside;
   margin-top: 10px;
   text-align: justify;
-}
-
-/* Rodapé */
-.footnote {
-  padding: 30px 0;
-  background: linear-gradient(180deg, #91b1b6, #4c6569);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.footnote-img {
-  width: 150px;
-  margin: 25px auto 15px;
-}
-
-.footnote-text {
-  color: #FEFEFE;
-  font-size: 20px;
-  text-align: center;
 }
 
 /*Formulário de orçamento*/
@@ -368,3 +319,51 @@ header{
   transform: scale(1.02);
 }
 
+/* Contatos */
+.contact {
+  padding: 50px;
+}
+
+.links-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-contact {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #117379;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10PX;
+
+}
+
+.link-contact img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Rodapé */
+.footnote {
+  padding: 30px 0;
+  background: linear-gradient(180deg, #91b1b6, #4c6569);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footnote-img {
+  width: 150px;
+  margin: 25px auto 15px;
+}
+
+.footnote-text {
+  color: #FEFEFE;
+  font-size: 20px;
+  text-align: center;
+}

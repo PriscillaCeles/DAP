@@ -140,7 +140,6 @@ nav il a{
     max-width: 80%;
 }
 
-/*Contatos*/
 .contact {
     text-align: center;
     padding: 20px;
@@ -148,6 +147,10 @@ nav il a{
 
 .links-contact {
     align-items: center;
+}
+
+.footnote-text {
+    font-size: 15px;
 }
 }
 
