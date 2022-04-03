@@ -1,12 +1,23 @@
 @media (max-width: 650px){
-    .services {
-        padding: 50px 50px;
+    .missao{
         display: flex;
         flex-direction: column;
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .missao strong {
+        margin-bottom: 10px;
     }
 
     .quem-somos {
         padding: 0 10px;
+    }
+
+    .services {
+        padding: 50px 50px;
+        display: flex;
+        flex-direction: column;
     }
 
     .budget-box {
