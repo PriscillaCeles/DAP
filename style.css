@@ -61,11 +61,12 @@ header{
   clear: left;
   display: flex;
   align-items: center;
+  padding: 0 50px;
+
 }
 
 .equipe-img {
   width: 340px;
-  margin-left: 20px;
   margin-right: 40px;
   float: left;
 }
@@ -79,9 +80,9 @@ header{
 
 .text {
   font-size: 22px;
-  line-height: 40px;
+  line-height: 35px;
   text-align: justify;
-  max-width: 90%;
+  max-width: 92%;
 }
 
 .quem-somos {
@@ -296,7 +297,7 @@ header{
 }
 
 .input-field {
-  width: 500px;
+  width: 100%;
   height: 35px;
   padding: 10px;
   box-sizing: border-box;
@@ -309,14 +310,18 @@ header{
 }
 
 .animal {
-  width: 500px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
+.system-box {
+  width: 100%;
+}
+
 .system {
-  width: 500px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -329,7 +334,7 @@ header{
 .msg-box {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 100%;
 }
 
 .msg-field {

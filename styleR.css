@@ -4,17 +4,46 @@
         display: flex;
         flex-direction: column;
     }
+
+    .quem-somos {
+        padding: 0 10px;
+    }
+
+    .budget-box {
+        width: 400px;
+    }
 }
 
-@media (max-width: 750px){
+@media (max-width: 720px){
     header {
         display: flex;
         align-items: center;
         padding: 20px 40px;
     }
 
+    .missao {
+        font-size: 1.5rem;
+    }
+    
+    .dap-content {
+        clear: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .dap-content-text {
+        text-align:  center;
+    }
+    
+    .text {
+        margin: 0;
+        align-self: center;
+    }
+
     .subtitle {
         font-size: 24px;
+        margin-top: 10px;
     }
 
 
@@ -49,13 +78,18 @@ nav il{
 /*Home*/
 .missao {
     font-size: 1.75rem;
-    text-align: justify
-    ;
 }
 
 .equipe-img {
     width: 30%;
     margin-right: 25px;
+}
+
+.text {
+    font-size: 21px;
+    line-height: 21px;
+    text-align: justify;
+    max-width: 100%;
 }
 
 .pessoa__imagem {
@@ -68,6 +102,7 @@ nav il{
 }
 .pessoa__funcao {
     font-size: 20px; 
+    text-align: center;
 }
 
 .video {
