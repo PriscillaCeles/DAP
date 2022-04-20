@@ -354,17 +354,17 @@ header{
 .animacao-seta {
   width: 25px;
   filter: drop-shadow(0 0 5px rgb(134, 249, 253));
-  animation: seta 1.5s infinite linear forwards;
+  animation: seta 1s infinite linear forwards;
 }
 
 .animacao-seta-1 {
+  animation-delay: 0.03s;
+}
+.animacao-seta-1 {
+  animation-delay: 0.05s;
+}
+.animacao-seta-1 {
   animation-delay: 0.1s;
-}
-.animacao-seta-1 {
-  animation-delay: 0.15s;
-}
-.animacao-seta-1 {
-  animation-delay: 0.2s;
 }
 
 @keyframes seta {
