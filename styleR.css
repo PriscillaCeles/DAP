@@ -31,7 +31,6 @@ header {
 nav il a{
     display: inline;
     margin: 0 0 0 5px;
-    font-size: 15px;
     line-height: 28px;
 }
 
@@ -81,6 +80,11 @@ nav il a{
 .footnote-text {
     font-size: 13px;
 }
+
+.link-contact{
+    font-size: 17px;
+}
+
 }
 
 @media (max-width: 720px){
@@ -215,5 +219,20 @@ nav il a{
     .text {
         font-size: 17px;
     }
+}
+
+@media (max-width:350px){
+    .budget-box {
+        width: 300px;
+    }
+
+    .label-field {
+        font-size: 14px;
+    }
+
+    .send {
+        padding: 10px 0;
+    }
+
 
 }
