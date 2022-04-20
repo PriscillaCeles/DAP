@@ -188,8 +188,19 @@ nav il a{
         flex-direction: column;
         gap: 5px;
     }
+
+    .title-headline{
+        font-size: 23px;
+    }
 }
 
-@media (max-width: 425px) {
 
+@media (max-width:425px){
+    nav {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
 }

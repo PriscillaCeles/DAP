@@ -40,6 +40,107 @@ header{
     text-decoration: underline;
   }
 
+  /*Menu Mobile*/
+  .menu-mobile {
+    display: none;
+  }
+
+  .button-mobile-open {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./assets/icon/menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+
+  .button-mobile-close {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    background-image: url(./assets/icon/close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    align-self: flex-end
+  }
+
+  .nav-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #a1eaecea;
+    height: 100vh;
+    width: 70%;
+    padding: 30px ;
+    box-sizing: border-box;
+
+    position: fixed;
+    right: -100vw;
+    transition: 0.25s;
+  }
+
+  .nav-mobile--ativo {
+    align-self: flex-end;
+    top: 0;
+    right: 0;
+    transition: 0.25s;
+  }
+
+  .menu-mobile__items {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    color: #2dafb8;
+    font-weight: 700;
+  }
+
+  .menu-mobile__items--home::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icon/home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .menu-mobile__items--services::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icon/services.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .menu-mobile__items--budget::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icon/budget.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .menu-mobile__items--contact::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icon/contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
 /* Home */
 .home-container, .services-container, .budget-container {
   background: linear-gradient(180deg, #FFFFFF, #fefefe, #91b1b6);
