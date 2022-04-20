@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 body {
   font-family: 'Quicksand', sans-serif;
 }
@@ -195,7 +198,7 @@ header{
   background-color: #FEFEFE;
   padding: 10px 15px;
   box-sizing: border-box;
-  min-width: 300px;
+  min-width: 380px;
   min-height: 250px;
 }
 
@@ -225,6 +228,109 @@ header{
   list-style: inside;
   margin-top: 10px;
   text-align: justify;
+}
+
+.headline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+.title-headline {
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #096e74;
+}
+
+.orcamento-seta{
+  text-decoration: none;
+}
+
+.animacao-seta {
+  width: 25px;
+  filter: drop-shadow(0 0 5px rgb(134, 249, 253));
+  animation: seta 1.5s infinite linear forwards;
+}
+
+.animacao-seta-1 {
+  animation-delay: 0.1s;
+}
+.animacao-seta-1 {
+  animation-delay: 0.15s;
+}
+.animacao-seta-1 {
+  animation-delay: 0.2s;
+}
+
+@keyframes seta {
+  from {
+    transform: scale(0.1) translateX(-5px);
+  }
+  to {
+    transform: scale(1) translateX(100%);
+  }
+  
+}
+
+.galery-container {
+  margin: 0 auto;
+  max-width: 600px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.galery-container__images {
+  width: 700%;
+  animation: galery 30s infinite;
+}
+
+.galery-image {
+  width: 14.15%;
+
+}
+
+@keyframes galery {
+  0%{
+    margin-left: 0;
+  }
+  15%{
+    margin-left: 0;
+  }
+  18.3%{
+    margin-left: -100%;
+  }
+  33.3%{
+    margin-left: -100%;
+  }
+  36.6%{
+    margin-left: -200%;
+  }
+  51.6%{
+    margin-left: -200%;
+  }
+  54.9%{
+    margin-left: -300%;
+  }
+  69.9%{
+    margin-left: -300%;
+  }
+  73.2%{
+    margin-left: -400%;
+  }
+  88.2%{
+    margin-left: -400%;
+  }
+  91.5%{
+    margin-left: -500%;
+  }
+  100%{
+    margin-left: -600%;
+  }
+
 }
 
 /*Formulário de orçamento*/
@@ -301,7 +407,7 @@ header{
 
 .send {
   margin-top: 30px;
-  padding: 10px 0;
+  padding: 15px 0;
   width: 100%;
   border: none;
   border-radius: 5px;
@@ -310,6 +416,11 @@ header{
   color: #FFFFFF;
   font-weight: bold;
   transition: 200ms;
+}
+
+.send a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .send:hover {

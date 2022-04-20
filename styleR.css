@@ -1,96 +1,17 @@
-@media (max-width: 660px){
-    .logo {
-        max-width: 80% ;
-        margin-right: 30px;
-    }
-
-    .missao{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 15px;
-    }
-
-    .missao strong {
-        margin-bottom: 10px;
-    }
-
-    .quem-somos {
-        padding: 0 10px;
-    }
-
-    .quem-somos-descricao {
-        font-size: 25px;
-    }
-
-    .pessoa__imagem {
-        max-height: 100px;
-        max-width: 100px;
-    }
-
-    .pessoa__nome {
-        font-size: 25px;
-    }
-
+@media (min-width: 1600px){
     .services {
-        padding: 30px 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .label-field {
-        font-size: 15px;
-    }
-    .budget-box {
-        width: 330px;
+        padding: 50px 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
     }
 }
 
-@media (max-width: 720px){
-    header {
-        display: flex;
-        align-items: center;
-        padding: 20px 40px;
+@media (max-width: 1000px){
+    .services {
+        padding: 50px 50px;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
     }
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav il{
-        text-align: center;
-    }
-
-    .equipe-img {
-        max-width: 100%;
-        margin-right: 0px;
-    }
-    
-    .dap-content {
-        clear: left;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 40px;
-    }
-
-    .dap-content-text {
-        text-align:  center;
-    }
-    
-    .text {
-        margin: 0;
-        align-self: center;
-    }
-
-    .subtitle {
-        font-size: 24px;
-        margin-top: 10px;
-    }
-
 }
 
 @media (max-width: 850px){
@@ -158,18 +79,113 @@ nav il a{
 }
 }
 
-@media (max-width: 1000px){
-    .services {
-        padding: 50px 50px;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
+@media (max-width: 720px){
+    header {
+        display: flex;
+        align-items: center;
+        padding: 20px 40px;
     }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav il{
+        text-align: center;
+    }
+
+    .equipe-img {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+    
+    .dap-content {
+        clear: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 40px;
+    }
+
+    .dap-content-text {
+        text-align:  center;
+    }
+    
+    .text {
+        margin: 0;
+        align-self: center;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
 }
 
-@media (min-width: 1600px){
+@media (max-width: 660px){
+    .logo {
+        max-width: 80% ;
+        margin-right: 30px;
+    }
+
+    .missao{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+    .missao strong {
+        margin-bottom: 10px;
+    }
+
+    .quem-somos {
+        padding: 0 10px;
+    }
+
+    .quem-somos-descricao {
+        font-size: 25px;
+    }
+
+    .pessoa__imagem {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    .pessoa__nome {
+        font-size: 25px;
+    }
+
     .services {
-        padding: 50px 50px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 15px;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galery-container {
+        margin: 0 auto;
+        max-width: 380px;
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+
+    .galery-image {
+        width: 14.1%;
+    }
+
+    .label-field {
+        font-size: 15px;
+    }
+    .budget-box {
+        width: 330px;
+    }
+
+    .headline{
+        flex-direction: column;
+        gap: 5px;
     }
 }
