@@ -96,6 +96,10 @@ nav il a{
         text-align: center;
     }
 
+    .text {
+        font-size: 18px;
+    }
+
     .equipe-img {
         max-width: 100%;
         margin-right: 0px;
@@ -195,7 +199,7 @@ nav il a{
 }
 
 
-@media (max-width:425px){
+@media (max-width:500px){
     nav {
         display: none;
     }
@@ -203,4 +207,9 @@ nav il a{
     .menu-mobile {
         display: block;
     }
+
+    .text {
+        font-size: 17px;
+    }
+
 }
