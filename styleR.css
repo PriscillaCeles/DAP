@@ -14,7 +14,7 @@
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 800px){
 /*Header*/
 .logo{
     width: 180px;
@@ -125,7 +125,7 @@ nav il a{
 
 }
 
-@media (max-width: 660px){
+@media (max-width: 640px){
     .logo {
         max-width: 80% ;
         margin-right: 30px;
@@ -166,11 +166,11 @@ nav il a{
         align-items: center;
     }
 
+    .service {
+        width: 300px;
+    }
     .galery-container {
-        margin: 0 auto;
         max-width: 380px;
-        overflow: hidden;
-        background-color: #ffffff;
     }
 
     .galery-image {
@@ -188,4 +188,8 @@ nav il a{
         flex-direction: column;
         gap: 5px;
     }
+}
+
+@media (max-width: 425px) {
+
 }
