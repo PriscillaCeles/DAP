@@ -306,7 +306,7 @@ header{
 .service:hover {
   border: 3px solid #055155fb;
   background-color: #FFFFFF;
-  box-shadow: 0 0 5px 10px #2dafb84e;
+  box-shadow: 0 0 5px 10px #47e0eb25;
 }
 
 .service-img {
@@ -513,11 +513,13 @@ header{
   width: 100%;
   border: none;
   border-radius: 5px;
-  background-color: #117379;
+  background: linear-gradient(to right, #2ca7ad, #01353b);
+  background-size: 200%;
+  background-position: left;
   font-size: 20px;
   color: #FFFFFF;
   font-weight: bold;
-  transition: 200ms;
+  transition: 800ms;
 }
 
 .send a{
@@ -526,7 +528,7 @@ header{
 }
 
 .send:hover {
-  background-color: #14848a;
+  background-position: right;
   cursor: pointer;
   box-shadow: 5px 5px 5px 3px #59595984;
   transform: scale(1.02);
